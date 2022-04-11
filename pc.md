@@ -15,14 +15,15 @@ banches are created to work on a project while not making changes to the origina
 A Pull Request is created to compare and merge the branch to the original or main branch 
 
 5. What is the command you can use to switch between branches? For example you are working on the FIRSTNAME-LASTNAME branch and you want to switch back to main.
+git checkout main
+
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
+git fetch retrieves the files from the remote directory down to your local machine.
+git merge modifies the working copy on the local machine to match the remote repository
+git pull is a git fetch and a git merge in one command
+
 7. What is a merge conflict?
+A merge conflict is when Git is unable to resolve the differences in code between two commits 
+
 8. How do you resolve a merge conflict?
-
-
-
-Hello World!
-
-adding more lines
-
-add another line
+modify the conflicting changes and select which code to merge 
